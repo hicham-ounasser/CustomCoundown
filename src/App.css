@@ -4,7 +4,7 @@
   bottom: 0;
   width: 100vw;
   height: auto;
-  z-index: 0;
+  z-index: -10;
 }
 
 video {
@@ -91,12 +91,27 @@ button:hover {
 }
 
 /* Countdown */
+.countdown {
+  min-width: 580px;
+  min-height: 304px;
+  color: black;
+  margin: 0 auto;
+  padding: 25px 50px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 2;
+  display: flex-box;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.85);
+}
 ul {
   margin-left: -45px;
 }
 
 li {
-  font-size: 30px;
+  display: inline-block;
+  font-size: 80px;
   list-style-type: none;
   padding: 10px;
   text-transform: uppercase;
@@ -104,7 +119,7 @@ li {
 
 li span {
   display: block;
-  font-size: 80px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -133,6 +148,9 @@ li span {
     min-height: 245px;
     padding: 20px;
     margin: 20px;
+    display: flex-box;
+    justify-content: center;
+    align-items: center;
   }
 
   .input-container {
@@ -142,6 +160,9 @@ li span {
   .countdown {
     position: relative;
     top: 10px;
+    display: flex-box;
+    justify-content: center;
+    align-items: center;
   }
 
   .form {
@@ -150,6 +171,9 @@ li span {
 
   input {
     width: 93%;
+    display: flex-box;
+    justify-content: center;
+    align-items: center;
   }
 
   h1 {
@@ -157,10 +181,10 @@ li span {
   }
 
   li {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   li span {
-    font-size: 40px;
+    font-size: 10px;
   }
 }
