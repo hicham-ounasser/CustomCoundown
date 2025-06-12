@@ -8,9 +8,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* <Countdown />
-      <CountdownContainer /> */}
-      <Complete />
+      {/* <Countdown /> */}
+      <CountdownContainer />
+      {/* <Complete /> */}
       <VideoBackground />
     </>
   );
